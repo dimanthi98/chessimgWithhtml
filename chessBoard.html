@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chess Board</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            document.write("<table style='border: 1px solid black;'>");
+            for(var x=0; x<=3; x++){               
+                document.write("<tr>");
+                        for(var z=0; z<=3; z++){                           
+                            document.write("<td style='width: 50px; height: 50px; border: 1px solid black; background-color: white;'>");
+                            document.write("</td>");
+                            
+                            document.write("<td style='width: 50px; height: 50px; border: 1px solid black; background-color: black;'>");
+                            document.write("</td>");                                                                          
+                        }  
+                        document.write("</tr>");  
+                        document.write("<tr>");      
+                        for(y=0; y<=3; y++){
+
+                            document.write("<td style='width: 50px; height: 50px; border: 1px solid black; background-color: black;'>");
+                            document.write("</td>");
+                            
+                            document.write("<td style='width: 50px; height: 50px; border: 1px solid black; background-color: white;'>");
+                            document.write("</td>");
+                                 
+                            }  
+                            document.write("</tr>");  
+                        document.write("<br>");                                  
+            }
+            document.write("</table>");
+        </script>
+    </body>
+</html>
